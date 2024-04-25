@@ -1,0 +1,173 @@
+/* General styles */
+body {
+   margin: 0; /* Removes default margin around the body */
+   padding: 0; /* Removes default padding around the body */
+   font-family: Arial, sans-serif;
+ }
+ 
+ header {
+   display: flex;
+   align-items: center;
+   position: relative;
+   padding: 1rem;
+   background-color: #222;
+   font-size: 22px;
+ }
+ 
+ .logo {
+   flex: 1;
+ }
+ 
+ nav {
+   text-align: right;
+ }
+ 
+ nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ nav li {
+   display: inline-block;
+   margin: 0 1rem;
+ }
+ 
+ nav a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease-in-out;
+ }
+ 
+ nav a:hover {
+   color: #ccc;
+ }
+ 
+
+
+ main {
+   height: 100vh; 
+   display: flex;
+ }
+ 
+ .content-wrapper {
+   flex: 1; /* Makes content wrapper take up all available space in main */
+   padding: 0; /* Removes padding from content wrapper */
+ }
+ 
+ article {
+   color: rgb(245, 237, 237);
+   height: 100%; /* Sets article to 100% height of its container */
+   display: flex;
+   margin: 0; /* Removes margin from article */
+ }
+ 
+ .text-container {
+   flex: 1; /* Makes text container take up available space within left half */
+   display: flex;
+   flex-direction: column;
+   justify-content: center; /* Vertically center content within text container */
+ }
+ 
+ .text-wrapper { /* Text wrapper for horizontal positioning (optional) */
+   margin-left: 150px; /* Maintain text position  */
+   width: 50%; /* Reduce width to occupy only half of the available space (optional) */
+  
+  }
+ 
+ h2 {
+   margin-bottom: 1rem;
+   color: white;
+   font-size: 65px;
+ }
+ 
+ p {
+   line-height: 1.5;
+   font-size: 20px;
+ }
+ 
+ button {
+   background-color: red;
+   color: white;
+   padding: 0.5rem 1rem;
+   border: none;
+   font-size: 16px;
+ }
+ figure{
+  display: flex;
+  height: 80%;
+  margin-top: 120px;
+  margin-right: 100px;
+
+ }
+ main {
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.services {
+  text-align: center; /* Center the services section text */
+}
+
+.service-container {
+  display: flex; /* Arrange services side-by-side */
+  justify-content: space-between; /* Distribute evenly */
+  width: 85%; /* Ensure full width */
+
+}
+
+.service {
+  text-align: left; 
+  padding: 1rem;
+  margin-left: 150px;
+  }
+
+.service img {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 1rem; /* Add some space between image and heading */
+}
+
+h3 {
+  margin-bottom: 0.5rem; /* Reduce margin below heading */
+}
+.sec2 {
+  display: flex; 
+}
+
+.sec2 .fig2 {
+  flex: 0 0 30%; /* Set the width of the image container to 30% */
+  margin: 10px; /* Add some margin for spacing */
+}
+
+.sec2 div {  /* Target both inner divs within sec2 */
+  flex: 1; /* Allow the text container to take up the remaining space */
+  padding: 10px; /* Add some padding for readability */
+}
+
+h1 {
+  font-size: 50px;
+
+}
+.sec3 {
+  display: flex;
+  background-color: #222;
+}
+
+  .text1 {
+    color: white;
+  }
+  
+    .sec4 {
+      text-align: left;
+      font-size: 20px;
+      margin-top: 200px;
+    }
+
+    .fig3{
+      height:650px;
+      width: 650px;
+      margin-left: 250px;
+    }
